@@ -95,7 +95,7 @@ function Hero() {
       <div className="hero-visual">
         <div className="orbit orbit-one"/><div className="orbit orbit-two"/>
         <div className="photo-frame">
-          <img src="/profile.jpg" alt="Likhith AN profile" onError={(e) => { e.currentTarget.style.display = "none"; e.currentTarget.nextElementSibling.style.display = "grid"; }}/>
+          <img src="/profile.jpeg" alt="Likhith AN profile" onError={(e) => { e.currentTarget.style.display = "none"; e.currentTarget.nextElementSibling.style.display = "grid"; }}/>
           <div className="photo-placeholder"><div className="placeholder-icon">LA</div><span>Add your profile photo</span><small>public/profile.jpg</small></div>
         </div>
         <div className="float-card float-code"><Code2 size={17}/><span>Clean code</span></div>
